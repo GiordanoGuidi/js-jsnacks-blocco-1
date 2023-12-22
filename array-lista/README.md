@@ -30,3 +30,13 @@ Cartella: array_bonus
 Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
 Buon lavoro e buon Natale! :albero_natale:
+---
+
+# Scomposizione problema
+### TuttiFrutti
+1. Creo un array
+2. Aggiungo la pesca nell'array
+3. Verifico se nell' array c'è il cocomero
+4. Creo una variabile
+5. stampo in pagina 
+
