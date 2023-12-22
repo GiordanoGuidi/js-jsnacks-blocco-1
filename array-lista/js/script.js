@@ -15,6 +15,7 @@ for(let i = 0 ; i < frigorifero.length; i++){
         message = "Oh no, devo uscire a comprare il cocomero!"
     }
     paragraphElement.innerText = message
-    
 }
+
+
 
