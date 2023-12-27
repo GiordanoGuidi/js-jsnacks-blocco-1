@@ -8,6 +8,8 @@ console.log('elementi che costituiscono l\'array', numOfElements)
 // CREO L'ELEMENTO HTML
 const paragraphElement = document.createElement('p')
 console.log('elemento html', paragraphElement)
+// LO COLLEGO AL FILE HTML
+document.body.appendChild(paragraphElement)
 
 // # VALIDAZIONE
 if(numOfElements <= 6 || isNaN(numOfElements)){
@@ -25,5 +27,6 @@ for( let i = 1 ; i <= numOfElements; i++){
     arrayNumbers.push(numbers);
     console.log('array pieno',arrayNumbers)
 }
-// STAMPO GLI ULTIMI 5 NUMERI DELL'ARRAY
-console.log('array tagliato', arrayNumbers.slice(-5))
+// STAMPO GLI ULTIMI 5 NUMERI DELL'ARRAY IN PAGINA
+paragraphElement.innerText = (arrayNumbers.slice(-5))
+
