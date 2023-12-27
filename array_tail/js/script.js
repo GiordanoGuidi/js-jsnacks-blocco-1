@@ -12,7 +12,7 @@ console.log('elemento html', paragraphElement)
 document.body.appendChild(paragraphElement)
 
 // # VALIDAZIONE
-if(numOfElements <= 6 || isNaN(numOfElements)){
+if(numOfElements < 6 || isNaN(numOfElements)){
     alert('L\'array deve essere un numero maggiore o uguale a 6');
 }
 // CREO CICLO FOR
