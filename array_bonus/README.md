@@ -6,5 +6,9 @@ Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti 
 
 # SCOMPOSIZIONE PROBLEMA
 
+1. Creo due array di lunghezza diversa
+2. Creo una condizione 
+3. Creo un ciclo for
+
 
 
