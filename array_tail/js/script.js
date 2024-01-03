@@ -1,4 +1,3 @@
-console.log('JS OK')
 //CREO L'ARRAY
 const arrayNumbers =[] ;
 console.log(arrayNumbers)
