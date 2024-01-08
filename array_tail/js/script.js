@@ -10,15 +10,17 @@ document.body.appendChild(paragraphElement)
 // # VALIDAZIONE
 if(numOfElements < 6 || isNaN(numOfElements)){
     alert('L\'array deve essere un numero maggiore o uguale a 6');
-}
-// CREO CICLO FOR
-for( let i = 1 ; i <= numOfElements; i++){
-    // GENERO UN NUMERO CASUALE ALL'INTERNO DEL CICLO
-    const randomNumbers =  Math.floor((Math.random() * 100) + 1);
-    // MOLTIPLICO NUMERO DI ELEMENTI PER IL NUMERO CASUALE
-    const numbers = randomNumbers * [i];
-    // PUSHO I NUMERI RANDOM NELL'ARRAY
-    arrayNumbers.push(numbers);
+}else{
+    // CREO CICLO FOR
+    for( let i = 1 ; i <= numOfElements; i++){
+        // GENERO UN NUMERO CASUALE ALL'INTERNO DEL CICLO
+        const randomNumbers =  Math.floor((Math.random() * 100) + 1);
+        // MOLTIPLICO NUMERO DI ELEMENTI PER IL NUMERO CASUALE
+        // const numbers = randomNumbers * [i];
+        console.log(randomNumbers)
+        // PUSHO I NUMERI RANDOM NELL'ARRAY
+        arrayNumbers.push(randomNumbers);
+    }
 }
 // STAMPO GLI ULTIMI 5 NUMERI DELL'ARRAY IN PAGINA
 paragraphElement.innerText = (arrayNumbers.slice(-5))
